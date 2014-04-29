@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="UTF-8">
+	<title> Principal </title>
+	<link rel="stylesheet" type="text/css" href="dist/css/bootstrap.css">
+	<link href="dist/date/css/bootstrap-datetimepicker.min.css" rel="stylesheet" media="screen">
+	<link href="images/logo_min.png" type="image/x-icon" rel="shortcut icon" />
+	<link href="dist/date/css/bootstrap-datetimepicker.min.css" rel="stylesheet" media="screen">
+	<script language="Javascript" type="text/javascript" src="https://code.jquery.com/jquery.js"></script>
+	<script language="Javascript" type="text/javascript" src="dist/js/bootstrap.js"></script>
+	<script language="Javascript" type="text/javascript" src="tools/script.js"></script>
+</head>
+<body>
+
+	<div class="row">
+		<nav class="navbar navbar-inverse" role="navigation">
+			  <div class="container-fluid">
+			    <!-- Brand and toggle get grouped for better mobile display -->
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+			      <a class="navbar-brand" href="inicio.php">Atonaltzin</a>
+			    </div>
+
+			    <!-- Collect the nav links, forms, and other content for toggling -->
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			      <ul class="nav navbar-nav">
+			      
+			    <!-- PESTAÑA INICIO -->  
+			        <li >
+			        	<a href="inicio.php">
+				        	<span class="glyphicon glyphicon-home"></span>
+				        	Inicio
+				        </a>
+				    </li>
+
+				<!-- PESTAÑA Boletos --> 
+			        <li class="dropdown " >
+			          <a href="#" class="dropdown-toggle" data-toggle="dropdown"> 
+			          	<span class="glyphicon glyphicon-tag"></span>
+			          	Boletos 
+			          	<b class="caret"></b>
+			          </a>
+			          <ul class="dropdown-menu">
+			            <li><a href="boletos_venta.php">Venta</a></li>
+			            <li><a href="boletos_reserva.php">Reserva</a></li>
+			            <li><a href="boletos_buscar.php">Buscar</a></li>
+			          </ul>
+			        </li>
+
+			    <!-- PESTAÑA CORRIDAS --> 
+			        <li class="active">
+			        	<a href="corridas.php">
+			        		<span class="glyphicon glyphicon-road"></span>
+			        		Corridas
+			        	</a>
+			        </li>
+
+			    <!-- PESTAÑA REPORTES --> 
+			        <li>
+			        	<a href="reportes.php">
+			        		<span class="glyphicon glyphicon-list-alt"></span>
+			        		Reportes
+			        	</a>
+			        </li>
+
+			    <!-- PESTAÑA ADMINISTRACION --> 
+			        <li class="dropdown">
+			          <a href="reportes.php" class="dropdown-toggle" data-toggle="dropdown"> 
+			          	<span class="glyphicon glyphicon-user"></span>
+			          	Administración 
+			          	<b class="caret"></b>
+			          </a>
+			          <ul class="dropdown-menu">
+			            <li><a href="#">Usuarios</a></li>
+			            <li><a href="#">Suburban</a></li>
+			            <li><a href="#">Administradores</a></li>
+			          </ul>
+			        </li>
+
+		    	    <!-- PESTAÑA Avisos --> 
+			        <li>
+			        	<a href="#">
+			        		<span class="glyphicon glyphicon-exclamation-sign"></span>
+			        		Aviso
+			        		<span class="badge">0</span>
+			        	</a>
+			        </li>
+
+			      
+			      </ul>
+
+			    <!--SALIR-->
+			      <ul class="nav navbar-nav navbar-right">
+			        <li>
+			        	<a href="#">
+			        		Salir
+			        		<span class="glyphicon glyphicon-share-alt"></span>
+			        	</a>
+			        </li>
+			      </ul>
+			    </div><!-- /.navbar-collapse -->
+			  </div><!-- /.container-fluid -->
+		</nav>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-lg-offset-2">
+				<h3>
+					<label clas="control-label">Corridas</label>
+				</h3>
+			</div>		
+		</div>	
+	</div>
+
+</body>
+</html>

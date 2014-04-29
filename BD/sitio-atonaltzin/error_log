@@ -1,0 +1,1 @@
+[09-Feb-2014 04:44:39 America/New_York] PHP Fatal error:  Cannot re-assign auto-global variable _POST in /home/extjs/public_html/equipo1/funciones.php on line 68

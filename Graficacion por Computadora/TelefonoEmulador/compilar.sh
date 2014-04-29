@@ -1,0 +1,1 @@
+g++ main.cpp -o telefono `sdl-config --libs --cflags` -lSDL_image -lSDL_ttf -w

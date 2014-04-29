@@ -1,0 +1,28 @@
+.pagina{
+	margin-top: 2%;
+	}
+.contenedor{
+		margin-left: 15%;
+		margin-right: 15%;
+		margin-top: 5%;
+	}
+.color-de-fondo{
+	text-align: center;
+	background: #ccc;
+
+	}
+.color-de-fondo-1{
+	background: #bbb;
+}
+.color-de-fondo-2{
+	background: #ddd;
+}
+.color-de-fondo{
+	background: #eee;
+}
+.alineacion-botones{
+	margin-top: 100px;
+}
+.separacion{
+	margin-top: 10px;
+}
